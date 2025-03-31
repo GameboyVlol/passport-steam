@@ -81,7 +81,7 @@ app.get('/logout', function(req, res){
 // See views/auth.js for authentication routes
 app.use('/auth', authRoutes);
 
-app.listen(3000);
+app.listen(8080);
 
 // Simple route middleware to ensure user is authenticated.
 //   Use this route middleware on any resource that needs to be protected.  If
