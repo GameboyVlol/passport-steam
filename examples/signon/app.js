@@ -98,7 +98,7 @@ app.get('/auth/steam/return',
     res.redirect('/');
   });
 
-app.listen(3000);
+app.listen(8080);
 
 // Simple route middleware to ensure user is authenticated.
 //   Use this route middleware on any resource that needs to be protected.  If
