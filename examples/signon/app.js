@@ -27,7 +27,7 @@ passport.deserializeUser(function(obj, done) {
 //   credentials (in this case, an OpenID identifier and profile), and invoke a
 //   callback with a user object.
 passport.use(new SteamStrategy({
-    returnURL: 'https://passport-steam-x10d7.kinsta.app/',
+    returnURL: 'https://passport-steam-x10d7.kinsta.app/auth/steam/return',
     realm: 'https://passport-steam-x10d7.kinsta.app/',
     apiKey: '483B93FE876CC043A202932AC5333548'
   },
